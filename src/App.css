@@ -1,0 +1,14 @@
+.App-header {
+  margin-top: 50px;
+}
+
+.test-header {
+  text-align: center;
+  color: orange;
+}
+
+.test-image {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
