@@ -1,3 +1,18 @@
+:root {
+  --title-font: "Space Mono", monospace;
+  --body-font: "Space Grotesk", sans-serif;
+  --highlight-color: #ff9500;
+  --highlight-alt-color: #ec6302;
+  --primary-color: #0f0c0a;
+  --secondary-color: #33251c;
+  --tertiary-color: #f4ede8;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
 .test-header {
   text-align: center;
   color: orange;
@@ -7,4 +22,23 @@
   max-width: 300px;
   display: block;
   margin: 0 auto;
+}
+
+.coded-by,
+.clickthru-links {
+  color: var(--highlight-alt-color);
+}
+
+.coded-by {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.coded-by .clickthru-links {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.coded-by .clickthru-links:hover {
+  color: var(--highlight-color);
 }
