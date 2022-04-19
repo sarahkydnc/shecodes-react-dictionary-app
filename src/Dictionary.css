@@ -1,0 +1,10 @@
+#find-word-form {
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+
+#input-bar {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
