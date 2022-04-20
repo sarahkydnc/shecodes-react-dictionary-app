@@ -8,8 +8,11 @@
   --tertiary-color: #f4ede8;
 }
 
+h1 {
+  font-family: var(--title-font);
+}
+
 .App {
-  font-family: sans-serif;
   text-align: center;
 }
 

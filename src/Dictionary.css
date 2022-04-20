@@ -1,10 +1,18 @@
+h2 {
+  font-family: var(--title-font);
+}
+
+p {
+  font-family: var(--body-font);
+}
+
 #find-word-form {
-  max-width: 1000px;
-  display: block;
-  margin: 0 auto;
+  font-family: var(--body-font);
 }
 
 #input-bar {
   border: 1px solid lightgrey;
-  border-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-left: 15px;
 }

@@ -21,9 +21,8 @@ function App() {
         <main>
           <Dictionary />
         </main>
-
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

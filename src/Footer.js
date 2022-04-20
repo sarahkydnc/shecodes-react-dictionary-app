@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div>
+    <div className="App-footer">
       <p className="coded-by text-middle mt-5">
         This app was created by {""}
         <a
