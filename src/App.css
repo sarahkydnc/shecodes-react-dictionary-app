@@ -1,6 +1,5 @@
 :root {
-  --title-font: "Space Mono", monospace;
-  --body-font: "Space Grotesk", sans-serif;
+  --master-font: "VT323", monospace;
   --highlight-color: #ff9500;
   --highlight-alt-color: #ec6302;
   --primary-color: #0f0c0a;
@@ -8,11 +7,8 @@
   --tertiary-color: #f4ede8;
 }
 
-h1 {
-  font-family: var(--title-font);
-}
-
 .App {
+  font-family: var(--master-font);
   text-align: center;
 }
 

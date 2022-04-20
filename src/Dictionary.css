@@ -1,15 +1,3 @@
-h2 {
-  font-family: var(--title-font);
-}
-
-p {
-  font-family: var(--body-font);
-}
-
-#find-word-form {
-  font-family: var(--body-font);
-}
-
 #input-bar {
   border: 1px solid lightgrey;
   border-bottom-left-radius: 5px;
