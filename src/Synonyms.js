@@ -3,14 +3,12 @@ import React from "react";
 function Synonyms(props) {
   if (props.synonyms) {
     return (
-      <div className="text-start">
-        <p>Synonyms:</p>
-        <ul className="search-synonym">
-          {props.synonyms.map(function (synonym, index) {
-            return <li key={index}>{synonym}</li>;
-          })}
-        </ul>
-      </div>
+      <ul className="search-synonym">
+        {props.synonyms.map(function (synonym, index) {
+          <p>Synonyms:</p>;
+          return <li key={index}>{synonym}</li>;
+        })}
+      </ul>
     );
   } else {
     return null;
