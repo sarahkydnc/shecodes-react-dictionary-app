@@ -5,7 +5,7 @@ import Synonyms from "./Synonyms";
 function Meaning(props) {
   console.log(props.meaning);
   return (
-    <div className="search-meaning mt-4">
+    <div className="search-meaning">
       <h4 className="fw-bold fst-italic">{props.meaning.partOfSpeech}</h4>
 
       {props.meaning.definitions.map(function (definition, index) {

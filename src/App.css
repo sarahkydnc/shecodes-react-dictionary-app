@@ -1,32 +1,40 @@
 :root {
   --master-font: "VT323", monospace;
-  --highlight-color: #ff9500;
-  --highlight-alt-color: #ec6302;
-  --primary-color: #0f0c0a;
-  --secondary-color: #33251c;
-  --tertiary-color: #f4ede8;
+  --primary-color: #1ab2a8;
+  --secondary-color: #ffffff;
 }
 
 .App {
+  background-image: url("./old-imac.jpg");
+  background-position: center;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
   font-family: var(--master-font);
 }
 
-.test-header {
-  color: orange;
-}
-
-.test-image {
-  max-width: 300px;
-  display: block;
-  margin: 0 auto;
+.container {
+  position: fixed;
+  top: 110px;
+  left: 160px;
+  width: 500px;
+  height: 370px;
+  overflow-y: scroll;
+  color: #1ab2a8;
 }
 
 .coded-by,
 .clickthru-links {
-  color: var(--highlight-alt-color);
+  color: #312c19;
 }
 
 .coded-by {
+  position: fixed;
+  bottom: 330px;
+  left: 175px;
   font-size: 14px;
   font-weight: lighter;
 }
@@ -37,5 +45,5 @@
 }
 
 .coded-by .clickthru-links:hover {
-  color: var(--highlight-color);
+  color: #02406c;
 }

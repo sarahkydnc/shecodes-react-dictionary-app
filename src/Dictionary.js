@@ -34,7 +34,7 @@ function Dictionary() {
             placeholder="Feed me a word..."
           />
 
-          <button className="btn btn-secondary search-button" type="submit">
+          <button className="btn search-button" type="submit">
             Search!
           </button>
         </div>

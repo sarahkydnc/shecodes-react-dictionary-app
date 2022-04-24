@@ -4,7 +4,9 @@ function Example(props) {
   if (props.example) {
     return (
       <div className="search-example">
-        <p className="fw-light fst-italic fs-6">Example: "{props.example}"</p>
+        <p className="fs-6">
+          Example: <span className="fw-light fst-italic ">{props.example}</span>
+        </p>
       </div>
     );
   } else {
