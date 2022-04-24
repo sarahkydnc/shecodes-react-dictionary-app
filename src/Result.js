@@ -1,4 +1,5 @@
 import React from "react";
+import Photo from "./Photo";
 import Phonetic from "./Phonetic";
 import Meaning from "./Meaning";
 
@@ -19,6 +20,8 @@ function Result(props) {
                 </div>
               );
             })}
+
+            <Photo photos={props.photos} />
           </div>
 
           <div className="col-sm-6">
