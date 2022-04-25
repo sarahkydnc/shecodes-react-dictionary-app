@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <img src={OldMac} alt="" className="background" />
+      <img src={OldMac} alt="" className="background shadow-lg" />
       <div className="container">
         <div className="main-app">
           <header className="intro-header text-center">

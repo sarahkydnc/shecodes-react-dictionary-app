@@ -5,10 +5,10 @@
 }
 
 .search-result {
-  margin-left: 10px;
+  margin: 0 auto;
   overflow-y: scroll;
-  width: fit-content;
-  height: 170px;
+  width: 415px;
+  height: 125px;
 }
 
 .filter-background,
@@ -33,5 +33,5 @@
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
   padding-left: 15px;
-  width: 405px;
+  width: 350px;
 }
