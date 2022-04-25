@@ -21,8 +21,8 @@ body {
 }
 
 .background {
-  height: 90%;
-  width: 35%;
+  height: 800px;
+  width: 600px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -37,9 +37,9 @@ body {
 .main-app {
   position: absolute;
   left: 50%;
-  top: 40%;
-  transform: translate(-50%, -40%);
-  width: 30%;
+  top: 32.5%;
+  transform: translate(-50%, -32.5%);
+  width: 500px;
   height: 55%;
   color: #1ab2a8;
 }
@@ -52,8 +52,8 @@ body {
 .coded-by {
   position: absolute;
   left: 50%;
-  bottom: 28%;
-  transform: translate(-50%, -28%);
+  bottom: 26.5%;
+  transform: translate(-50%, -26.5%);
   font-size: 12px;
   font-weight: lighter;
 }
