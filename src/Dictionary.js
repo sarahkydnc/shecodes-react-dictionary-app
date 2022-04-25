@@ -17,8 +17,8 @@ function Dictionary() {
 
     // Documentation (Pexels): https://www.pexels.com/api/documentation/?
     let pexelsKeyAPI = `563492ad6f917000010000015a599c35c56143dd80c319ae16d49130`;
-    let pexelsHeadersAPI = { "Authorisation": `Bearer ${pexelsKeyAPI}` };
-    const pexelsUrlAPI = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`;
+    let pexelsHeadersAPI = { Authorization: `Bearer ${pexelsKeyAPI}` };
+    const pexelsUrlAPI = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
     axios
       .get(pexelsUrlAPI, { headers: pexelsHeadersAPI })
       .then(handlePexelsResponse);
