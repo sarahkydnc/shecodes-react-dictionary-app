@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="App-footer text-center">
-      <p className="coded-by mt-5">
+      <small className="coded-by mt-5">
         This app was created by {""}
         <a
           href="https://www.sarahkaydence.com"
@@ -51,7 +51,7 @@ function Footer() {
         >
           Unsplash
         </a>
-      </p>
+      </small>
     </div>
   );
 }

@@ -52,9 +52,9 @@ body {
 .coded-by {
   position: absolute;
   left: 50%;
-  bottom: 26.5%;
-  transform: translate(-50%, -26.5%);
-  font-size: 14px;
+  bottom: 28%;
+  transform: translate(-50%, -28%);
+  font-size: 12px;
   font-weight: lighter;
 }
 
