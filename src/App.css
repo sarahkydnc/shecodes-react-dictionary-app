@@ -4,37 +4,57 @@
   --secondary-color: #ffffff;
 }
 
+body {
+  font-family: var(--master-font);
+}
+
 .App {
-  background-image: url("./old-imac.jpg");
+  background-image: url("screen-glitch.jpg");
   background-position: center;
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: overlay;
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
+}
+
+.background {
+  height: 1105px;
+  width: 850px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--secondary-color);
+  border-radius: 30px;
+}
+
+.App {
   font-family: var(--master-font);
 }
 
-.container {
-  position: fixed;
-  top: 110px;
-  left: 160px;
-  width: 500px;
+.main-app {
+  position: absolute;
+  left: 50%;
+  top: 28%;
+  transform: translate(-50%, -28%);
+  width: 490px;
   height: 370px;
-  overflow-y: scroll;
   color: #1ab2a8;
 }
 
 .coded-by,
 .clickthru-links {
-  color: #312c19;
+  color: var(--secondary-color);
 }
 
 .coded-by {
-  position: fixed;
-  bottom: 330px;
-  left: 175px;
+  position: absolute;
+  left: 50%;
+  bottom: 24%;
+  transform: translate(-50%, -24%);
   font-size: 14px;
   font-weight: lighter;
 }
@@ -45,5 +65,5 @@
 }
 
 .coded-by .clickthru-links:hover {
-  color: #02406c;
+  color: var(--primary-color);
 }

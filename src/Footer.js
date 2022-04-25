@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="App-footer text-center">
-      <p className="coded-by text-middle mt-5">
+      <p className="coded-by mt-5">
         This app was created by {""}
         <a
           href="https://www.sarahkaydence.com"
@@ -42,18 +42,9 @@ function Footer() {
         >
           Netlify
         </a>{" "}
-        {""}| Photo by{" "}
+        {""}| Photos from{" "}
         <a
-          href="https://unsplash.com/@ninjason?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-          target="_blank"
-          rel="noreferrer"
-          className="clickthru-links"
-        >
-          Jason Leung
-        </a>{" "}
-        on{" "}
-        <a
-          href="https://unsplash.com/s/photos/vintage-tv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          href="https://unsplash.com/"
           target="_blank"
           rel="noreferrer"
           className="clickthru-links"
